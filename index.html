@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body style="text-align:center;" id="body">
+
+  <div class="table">
+    <table id="table-id" cellspacing="0" border="1">
+      <thead>
+       <tr>
+            <th rowspan="2" class="name-inf">имя</th>
+            <th rowspan="2" class="username-inf">фамилия</th>
+            <th rowspan="2" class="username-inf">Изменить</th>
+           
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>        
+    </table>
+    <button type="reset" id="add"  onclick="openForm()" >добавить</button>
+</div>
+<div class="for_form">
+<form action="" id="form">
+    <h4> вводите ваше имя и фамилия за тем нажмите кнопку добавить </h4> 
+    <p> <input type="text" id="name" placeholder="Ваше имя">
+       <input type="text" id="lastname" placeholder="и фамилия">
+     <button type="reset"  onclick="sendJSON()" onfocus="">добавить</button>
+     <!-- <button onclick="editJSON()">Изменить JSON</button> -->
+    </p>
+</form>
+</div>
+<script src="index.js">
+
+
+
+</script>
+</body>
+
+</html>

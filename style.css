@@ -1,0 +1,52 @@
+
+body{
+    background-color:rgb(233, 225, 216);
+}
+
+
+
+
+table{
+    
+    background-color:#ffffff;
+  
+}
+table thead{
+    background-color: cadetblue;
+}
+
+.for_form{
+   display: flex;
+   margin: 20px auto ;
+   height: 50vh;
+ 
+    
+}
+
+#form {
+padding: 15px;
+margin: 0 auto;
+display: none; 
+flex-direction: column;
+background-color: rgb(250, 249, 248);
+border-radius: 10px;
+z-index: 5;
+max-width: 270px;
+align-content: center;
+
+}
+#lastname{
+    margin-top: 10px;
+}
+form button{
+
+    margin: 30px;
+}
+#add{
+    display: flex;
+    margin-top: 10px;
+  margin-left: 50px;
+    
+ 
+    
+}
